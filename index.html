@@ -175,14 +175,14 @@
         <li id="paymentLabel">Payment</li>
         <div id="cartItems"></div>
         <p>Total: Rp <span id="totalPrice">0</span></p>
-        <input type="number" id="payment" placeholder="Enter amount of money" class="form-input">
+        <input type="number" id="payment" placeholder="masukkan jumlah bayar" class="form-input">
         <button onclick="checkout()">Checkout</button>
 
         <h4 id="formProductLabel">Form Product</h4>
-        <input type="text" id="productName" placeholder="Product name" class="form-input">
-        <input type="number" id="productPrice" placeholder="Price" class="form-input">
-        <input type="number" id="productStock" placeholder="Stock" class="form-input">
-        <button onclick="addProduct()" id="addProductButton">Add Product</button>
+        <input type="text" id="productName" placeholder="nama produk" class="form-input">
+        <input type="number" id="productPrice" placeholder="harga" class="form-input">
+        <input type="number" id="productStock" placeholder="Stok" class="form-input">
+        <button onclick="addProduct()" id="addProductButton">Tambah Produk</button>
         <button onclick="checkLowStock()" id="checkQtyButton">Check Qty (-10)</button>
 
         <!-- Modal untuk Stok Rendah -->
@@ -194,9 +194,9 @@
             </div>
         </div>
 
-        <li id="readProductLabel">Read Product</li>
+        <li id="readProductLabel">Read Produk</li>
         <select id="productDropdown" class="form-input">
-            <option value="">Choose Product</option>
+            <option value="">pilih produk</option>
         </select>
         <button onclick="openProductDetails()" id="readButton">Read</button>
 
@@ -212,7 +212,7 @@
 
     <div class="product-list">
         <h1 id="productListTitle">My Web Store</h1>
-        <li>List Product</li>
+        <li>List Produk</li>
         <div id="productList"></div>
     </div>
 
